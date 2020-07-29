@@ -1,0 +1,7 @@
+{
+  "mysqlConf":{
+    "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
+    "mapTableName":"satellitemap"
+  },
+  "resourcePath":"D:\\Map2020\\MapCache2\\TileCache\\google\\satellite\\le\\zh-cn"
+}
