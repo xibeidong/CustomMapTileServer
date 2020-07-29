@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f277265-ba7a-422e-8124-2cbbc2838144" name="默认的" comment="" />
+    <list default="true" id="4f277265-ba7a-422e-8124-2cbbc2838144" name="默认的" comment="瓦片地图http提供服务">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +11,7 @@
   </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoDepProject">
     <integration-enabled>true</integration-enabled>
@@ -23,13 +25,14 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/ImpotMapImgToMysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -69,11 +72,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="瓦片地图http提供服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="瓦片地图http提供服务" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1595986949766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595986949766" />
     <state width="751" height="438" key="DebuggerActiveHint" timestamp="1595725911365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="751" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1595725911365" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1595986739209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595986739209" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1595727727656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -106,22 +121,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595726989867" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595987054810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595987054810" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595952881102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1595952881102" />
+    <state x="555" y="199" key="git4idea.merge.GitPullDialog" timestamp="1595987189391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1595987189391" />
+    <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1595987149614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595987149614" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/Tool/ImpotMapImgToMysql/StartCreateMapSQL.go</url>
-          <line>164</line>
+          <line>161</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/common/MapInfo.go</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
