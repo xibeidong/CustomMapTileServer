@@ -157,31 +157,6 @@ func praseImgDir(rootPath string) {
 	}
 }
 
-//遍历level文件夹,弃用
-func doImgFile2Mysql(rootPath string, dirs []os.FileInfo, level string) {
-
-	for _, dir := range dirs {
-		if dir.IsDir() {
-			path1 := rootPath + "\\" + level + "\\" + dir.Name()
-			files, e1 := ioutil.ReadDir(path1)
-			if e1 != nil {
-				fmt.Println(e1)
-				continue
-			}
-			fmt.Println(len(files))
-
-			for _, file := range files {
-				name1 := file.Name()
-				fmt.Println(name1)
-				str := strings.TrimRight(file.Name(), ".jpg")
-				path2 := rootPath + "\\" + level + "\\" + dir.Name() + "\\" + file.Name()
-				imgFile2mysql(
-					path2,
-					level+":"+dir.Name()+":"+str)
-			}
-		}
-	}
-}
 func imgFile2mysql(path string, pathKey string) {
 	mapinfo := &common.RoadMapInfo{}
 

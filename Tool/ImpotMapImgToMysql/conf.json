@@ -1,7 +1,7 @@
 {
   "mysqlConf":{
     "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
-    "mapTableName":"satellitemap"
+    "mapTableName":"roadbiglabel"
   },
-  "resourcePath":"D:/SGDownload/png/qdgangjubu/qdgangjubu墨卡托原始瓦片"
+  "resourcePath":"D:\\SGDownload\\png\\ALL"
 }

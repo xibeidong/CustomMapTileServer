@@ -21,14 +21,14 @@ type MysqlInfo struct {
 }
 
 func (roadMap *RoadMapInfo) ToMySql(tableName string) bool {
-	smt, err := DbMySql.Prepare("insert into " + tableName + " (img,level_id,dir_id,png_id,id) values (?,?,?,?,?)")
+	smt, err := DbMySql.Prepare("insert into " + tableName + " (img,level_id,dir_id,png_id,id) values (?,?,?,?,?) on duplicate key update img = ?")
 	if err != nil {
 		fmt.Println(err)
 		return false
 	}
 	defer smt.Close()
 
-	_, err = smt.Exec(roadMap.ImgData, roadMap.ID_level, roadMap.ID_dir, roadMap.ID_png, roadMap.ID)
+	_, err = smt.Exec(roadMap.ImgData, roadMap.ID_level, roadMap.ID_dir, roadMap.ID_png, roadMap.ID,roadMap.ImgData)
 
 	if err != nil {
 		fmt.Println(err)

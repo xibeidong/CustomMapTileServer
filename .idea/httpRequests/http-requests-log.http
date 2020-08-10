@@ -1,0 +1,9 @@
+GET https://www.google.com
+Accept: application/json
+
+###
+
+GET https://www.google.com/
+Accept: application/json
+
+###

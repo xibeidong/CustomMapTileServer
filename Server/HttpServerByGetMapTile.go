@@ -2,12 +2,15 @@ package main
 
 import (
 	"My/CustomTileMapServer/common"
+	"My/Learn/zapLog"
+	_ "My/Learn/zapLog"
 	"database/sql"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -31,10 +34,22 @@ func init() {
 		fmt.Println(mConf.MysqlConf, mConf.HttpServerListen)
 	}
 }
-func main() {
+func logTest()  {
+	for{
 
+		zapLog.Logger.Error("error....")
+		zapLog.Logger.Info("info....")
+		zapLog.Logger.Warn("warn....")
+		time.Sleep(time.Second*5)
+	}
+}
+
+func main() {
+	logTest()
+	zapLog.Logger.Info("Run")
 	signalExit := make(chan int)
 	run()
+
 	for {
 		select {
 		case a := <-signalExit:
@@ -65,8 +80,23 @@ func run() {
 
 func startHttpServer() {
 	http.HandleFunc("/roadmap", roadMapTile)
-
+	http.HandleFunc("/roadmap/",roadMapTile2)
 	http.ListenAndServe(mConf.HttpServerListen, nil)
+
+}
+func roadMapTile2(w http.ResponseWriter, r *http.Request){
+	strs:= strings.Split(r.URL.String(),"/")
+	data := getTileData(strs[2])
+	if data == nil {
+		fmt.Println("data is nil :" + strs[2])
+
+		w.WriteHeader(400)
+	} else {
+
+		w.WriteHeader(200)
+		w.Write(data)
+		fmt.Println(r.URL.RawQuery)
+	}
 
 }
 func roadMapTile(w http.ResponseWriter, r *http.Request) {
@@ -74,7 +104,7 @@ func roadMapTile(w http.ResponseWriter, r *http.Request) {
 	data := getTileData(r.URL.RawQuery)
 	if data == nil {
 		fmt.Println("data is nil :" + r.URL.RawQuery)
-		w.WriteHeader(404)
+		w.WriteHeader(400)
 	} else {
 
 		w.WriteHeader(200)
