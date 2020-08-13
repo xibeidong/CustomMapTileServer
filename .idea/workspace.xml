@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f277265-ba7a-422e-8124-2cbbc2838144" name="默认的" comment="瓦片地图http提供服务">
-      <change afterPath="$PROJECT_DIR$/Tool/DownLoadMap/DownGoogleMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QDPort/messageHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QDPort/receiveGpsInfoUdpServer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QDPort/tcpServer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dbMysql/dbMysqlHelper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tileMapServer/httpServer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/HttpServerByGetMapTile.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/HttpServerByGetMapTile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/HttpServerByGetMapTile.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/log/Debug.log.20200809" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/log/Debug.log.202008091007" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/StartCreateMapSQL.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/StartCreateMapSQL.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ImpotMapImgToMysql/conf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ImpotMapImgToMysql/go_build_My_CustomTileMapServer_Tool_ImpotMapImgToMysql.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/go_build_My_CustomTileMapServer_Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/go_build_My_CustomTileMapServer_Server.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/MapInfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/MapInfo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/MapInfo.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -41,7 +47,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,6 +59,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\go\src\My\CustomTileMapServer\conf" />
+      <recent name="F:\go\src\My\CustomTileMapServer\conf\mysql" />
+      <recent name="F:\go\src\My\CustomTileMapServer\common\dbMysql" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build My/CustomTileMapServer/Server">
     <configuration name="go build My/CustomTileMapServer/Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -111,54 +124,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="瓦片地图http提供服务" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596284557450">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597154700519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596284557450" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597154700519" />
     <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1595986949766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595986949766" />
-    <state width="751" height="438" key="DebuggerActiveHint" timestamp="1596547649764">
+    <state width="751" height="438" key="DebuggerActiveHint" timestamp="1597215588782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="751" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1596547649764" />
+    <state width="751" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1597215588782" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1596760709553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596760709553" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1596938828669">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596938828669" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1596938828669">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596938828669" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1596938828669">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596938828669" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1596938828669">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596938828669" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596727669030">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596727669030" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1596727669029">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596727669029" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1596727669029">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596727669029" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1596727669029">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597322976842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596727669029" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597322976842" />
+    <state x="303" y="58" key="SettingsEditor" timestamp="1597150829087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="303" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597150829087" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595987054810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -184,11 +201,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Tool/ImpotMapImgToMysql/StartCreateMapSQL.go</url>
-          <line>75</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/Tool/DownLoadMap/DownGoogleMap.go</url>
           <line>113</line>
           <option name="timeStamp" value="31" />
@@ -197,16 +209,6 @@
           <url>file://$PROJECT_DIR$/Tool/DownLoadMap/DownGoogleMap.go</url>
           <line>124</line>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Server/HttpServerByGetMapTile.go</url>
-          <line>83</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/common/MapInfo.go</url>
-          <line>23</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

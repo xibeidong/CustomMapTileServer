@@ -1,0 +1,8 @@
+2020-08-11 22:12:00	INFO	Server/main.go:26	Run
+2020-08-11 22:12:47	INFO	Server/main.go:26	Run
+2020-08-11 22:13:57	INFO	Server/main.go:26	Run
+2020-08-11 22:46:42	INFO	Server/main.go:26	Run
+2020-08-11 22:49:23	INFO	Server/main.go:27	Run
+2020-08-11 22:49:24	INFO	dbMysql/dbMysqlHelper.go:17	mysql ready connect...
+2020-08-11 22:50:42	INFO	Server/main.go:27	Run
+2020-08-11 22:50:42	INFO	dbMysql/dbMysqlHelper.go:17	mysql ready connect...

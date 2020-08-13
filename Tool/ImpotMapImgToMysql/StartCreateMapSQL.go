@@ -1,7 +1,6 @@
 package main
 
 import (
-	"My/CustomTileMapServer/common"
 	"database/sql"
 	"encoding/json"
 	"fmt"
@@ -14,16 +13,49 @@ import (
 	"sync"
 	"time"
 )
-
+type mysqlInfo struct {
+	MysqlDataSourceName string
+	MapTableName        string
+}
 type confInfo struct {
-	MysqlConf    *common.MysqlInfo
+	MysqlConf    *mysqlInfo
 	ResourcePath string
 }
 
+type roadMapInfo struct {
+	IdLevel uint8
+	IdDir   uint64
+	IdPng   uint64
+	ID      string
+	ImgData *[]byte
+}
+
+var db *sql.DB
 var chDone chan int
-var failMap map[string]*common.RoadMapInfo
+var failMap map[string]*roadMapInfo
 var maplock sync.Mutex
 var mConf *confInfo
+
+
+func (roadMap *roadMapInfo) toMySql(tableName string) bool {
+	smt, err := db.Prepare("insert into " + tableName + " (img,level_id,dir_id,png_id,id) values (?,?,?,?,?) on duplicate key update img = ?")
+	if err != nil {
+		fmt.Println(err)
+		return false
+	}
+	defer smt.Close()
+
+	_, err = smt.Exec(roadMap.ImgData, roadMap.IdLevel, roadMap.IdDir, roadMap.IdPng, roadMap.ID,roadMap.ImgData)
+
+	if err != nil {
+		fmt.Println(err)
+		return false
+	} else {
+		//fmt.Println(ret.RowsAffected())
+		return true
+	}
+
+}
 
 func init() {
 	dir, e := os.Getwd()
@@ -33,7 +65,7 @@ func init() {
 		fmt.Println(e)
 	}
 
-	mConf = &confInfo{&common.MysqlInfo{}, ""}
+	mConf = &confInfo{&mysqlInfo{}, ""}
 	e = json.Unmarshal(data, mConf)
 	if e != nil {
 		fmt.Println(e)
@@ -45,11 +77,7 @@ func main() {
 
 	signalExit := make(chan int)
 
-	defer func() {
-		if common.DbMySql != nil {
-			common.DbMySql.Close()
-		}
-	}()
+	defer db.Close()
 	run()
 	for {
 		select {
@@ -62,11 +90,12 @@ func main() {
 	}
 }
 func run() {
-	failMap = make(map[string]*common.RoadMapInfo)
+	failMap = make(map[string]*roadMapInfo)
 	chDone = make(chan int, 1000)
 	go monitor(chDone)
 	go retry()
-	db, e := sql.Open("mysql", mConf.MysqlConf.MysqlDataSourceName)
+	var e error
+	db, e = sql.Open("mysql", mConf.MysqlConf.MysqlDataSourceName)
 	if e != nil {
 		fmt.Println(e.Error())
 		//os.Exit(0)
@@ -74,7 +103,7 @@ func run() {
 		fmt.Println("mysql open")
 	}
 	db.SetMaxOpenConns(300)
-	common.DbMySql = db
+
 	praseImgDir(mConf.ResourcePath)
 }
 func retry() {
@@ -82,7 +111,7 @@ func retry() {
 		time.Sleep(time.Millisecond * 10)
 		maplock.Lock()
 		for k, v := range failMap {
-			b := v.ToMySql(mConf.MysqlConf.MapTableName)
+			b :=  v.toMySql(mConf.MysqlConf.MapTableName)
 			if b {
 				delete(failMap, k)
 				chDone <- 2
@@ -158,7 +187,7 @@ func praseImgDir(rootPath string) {
 }
 
 func imgFile2mysql(path string, pathKey string) {
-	mapinfo := &common.RoadMapInfo{}
+	mapinfo := &roadMapInfo{}
 
 	data, e := ioutil.ReadFile(path)
 	if e != nil {
@@ -175,23 +204,23 @@ func imgFile2mysql(path string, pathKey string) {
 			fmt.Println(e)
 			return
 		}
-		mapinfo.ID_level = uint8(ret)
+		mapinfo.IdLevel = uint8(ret)
 
 		ret, e = strconv.ParseInt(strs[1], 10, 64)
 		if e != nil {
 			fmt.Println(e)
 			return
 		}
-		mapinfo.ID_dir = uint64(ret)
+		mapinfo.IdDir = uint64(ret)
 
 		ret, e = strconv.ParseInt(strs[2], 10, 64)
 		if e != nil {
 			fmt.Println(e)
 			return
 		}
-		mapinfo.ID_png = uint64(ret)
+		mapinfo.IdPng = uint64(ret)
 
-		b := mapinfo.ToMySql(mConf.MysqlConf.MapTableName)
+		b := mapinfo.toMySql(mConf.MysqlConf.MapTableName)
 		if b {
 			chDone <- 1
 		} else {
