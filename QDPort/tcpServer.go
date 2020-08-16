@@ -37,7 +37,18 @@ func StartTcpServer()  {
 		go tcpPipe(tcpConn)
 	}
 }
-
+func sendAllOnlineGpsId(conn *net.TCPConn)  {
+	ps := &gpsPositions{}
+	GpsInfoMap.Range(func(key, value interface{}) bool {
+		gps:=value.(*gpsInfo)
+		if gps.Lat>0 && gps.Lng>0 {
+			ps.Positions = append(ps.Positions, *gps)
+		}
+		return true
+	})
+	data,_:=json.Marshal(ps)
+	reply(conn,data,97)
+}
 func tcpPipe(conn *net.TCPConn)  {
 	defer func() {
 		tcpConnMap.Delete(conn.RemoteAddr())
@@ -45,11 +56,14 @@ func tcpPipe(conn *net.TCPConn)  {
 		conn.Close()
 
 	}()
+
+	sendAllOnlineGpsId(conn)
+
 	for  {
 		bufHead:=make([]byte,6,6)
 		len, err := conn.Read(bufHead)
 		if err!=nil{
-			zapLog.Logger.Error(err)
+			zapLog.Logger.Warn(err)
 
 			return
 		}
@@ -66,9 +80,9 @@ func tcpPipe(conn *net.TCPConn)  {
 		fmt.Println("Body len = ",len," ; messageID = ",messageId)
 		switch messageId {
 		case 101:
-			heartHandler(conn,bufBody,101)
+			go heartHandler(conn,bufBody,101)
 		case 103:
-			playbackHandler(conn,bufBody,103)
+			go playbackHandler(conn,bufBody,103)
 		}
 	}
 
@@ -103,10 +117,10 @@ func BoastToAllClients(info *gpsInfo,messageId uint16)  {
 func reply(conn *net.TCPConn,messageBody []byte,messageId uint16)  {
 
 	idBytes:=make([]byte ,2,2)
-	binary.BigEndian.PutUint16(idBytes,messageId)
+	binary.LittleEndian.PutUint16(idBytes,messageId)
 
 	bodyLenByte:=make([]byte,4,4)
-	binary.BigEndian.PutUint32(bodyLenByte,uint32(len(messageBody)))
+	binary.LittleEndian.PutUint32(bodyLenByte,uint32(len(messageBody)))
 
 	data := bytesCombine(idBytes, bodyLenByte, messageBody)
 

@@ -3,9 +3,9 @@
     "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
     "mapTableName":"roadbiglabel"
   },
-  "mapHttpServerListen": "192.168.10.225:8000",
-  "qdPortUdpServerListen": "192.168.10.225:5611",
-  "qdPortTcpServerListen": "192.168.10.225:5612",
+  "mapHttpServerListen": "127.0.0.1:8000",
+  "qdPortUdpServerListen": "127.0.0.1:5611",
+  "qdPortTcpServerListen": "127.0.0.1:5612",
   "gpsIds": [
     {"id":1001050},
     {"id":1001051},
