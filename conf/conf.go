@@ -17,6 +17,8 @@ type gpsIdInfo struct {
 type infos struct {
 	MysqlConf             mysqlInfo   `json:"mysqlConf"`
 	MapHttpServerListen   string      `json:"mapHttpServerListen"`
+	MapResourceDBsRootPath string   `json:"mapResourceDBsRootPath"`
+	MapResourceDBs        []string	  `json:"mapResourceDBs"`
 	QdPortUdpServerListen string      `json:"qdPortUdpServerListen"`
 	QdPortTcpServerListen string      `json:"qdPortTcpServerListen"`
 	GpsIds                []gpsIdInfo `json:"gpsIds"`
@@ -39,6 +41,8 @@ func Init() error{
 	} else {
 		fmt.Println("读取配置 ==》 ",MyConfs.MysqlConf)
 		fmt.Println("读取配置 ==》 ",MyConfs.MapHttpServerListen)
+		fmt.Println("读取配置 ==》 ",MyConfs.MapResourceDBsRootPath)
+		fmt.Println("读取配置 ==》 ",MyConfs.MapResourceDBs)
 		fmt.Println("读取配置 ==》 ",MyConfs.QdPortUdpServerListen)
 		fmt.Println("读取配置 ==》 ",MyConfs.GpsIds)
 	}

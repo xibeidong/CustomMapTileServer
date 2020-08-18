@@ -1,0 +1,34 @@
+2020-08-17 00:18:14	INFO	Server/main.go:28	Run
+2020-08-17 00:18:14	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 00:18:20	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:14362
+2020-08-17 00:19:01	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-17 00:19:01	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:14362
+2020-08-17 00:19:03	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:14403
+2020-08-17 09:46:48	INFO	Server/main.go:28	Run
+2020-08-17 09:46:48	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 09:47:16	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2512
+2020-08-17 09:50:33	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2967
+2020-08-17 09:51:07	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-17 09:51:07	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:2967
+2020-08-17 10:23:05	INFO	Server/main.go:28	Run
+2020-08-17 10:23:06	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 10:23:40	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:8323
+2020-08-17 10:25:01	INFO	Server/main.go:28	Run
+2020-08-17 10:25:01	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 10:25:07	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:8561
+2020-08-17 10:35:00	INFO	Server/main.go:28	Run
+2020-08-17 10:35:00	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 10:43:20	INFO	Server/main.go:28	Run
+2020-08-17 10:43:20	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 10:44:44	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:11559
+2020-08-17 10:48:54	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:12252
+2020-08-17 10:50:32	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-17 10:50:32	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:12252
+2020-08-17 10:58:08	INFO	Server/main.go:28	Run
+2020-08-17 10:58:08	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-17 11:00:24	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:14376
+2020-08-17 11:01:45	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-17 11:01:45	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:14376
+2020-08-17 11:01:46	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:14681
+2020-08-17 11:05:24	INFO	Server/main.go:28	Run
+2020-08-17 11:05:24	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...

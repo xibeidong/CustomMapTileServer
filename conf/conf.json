@@ -4,8 +4,11 @@
     "mapTableName":"roadbiglabel"
   },
   "mapHttpServerListen": "127.0.0.1:8000",
+  "mapResourceDBsRootPath": "D:\\SGDownload\\outlineDB",
+  "mapResourceDBs": ["qdport1(2).sqlitedb","qdport2.sqlitedb"],
   "qdPortUdpServerListen": "127.0.0.1:5611",
   "qdPortTcpServerListen": "127.0.0.1:5612",
+
   "gpsIds": [
     {"id":1001050},
     {"id":1001051},

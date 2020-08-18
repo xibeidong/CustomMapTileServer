@@ -1,7 +1,0 @@
-{
-  "mysqlConf":{
-    "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
-    "mapTableName":"roadbiglabel"
-  },
-  "resourcePath":"D:\\SGDownload\\png\\ALL"
-}

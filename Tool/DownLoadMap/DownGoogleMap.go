@@ -21,7 +21,7 @@ var urls  = [4]string {
 	"https://mt2.googleapis.com/vt/lyrs=y&hl=zh-cn&x=%v&y=%v&z=%v",
 	"https://mt3.googleapis.com/vt/lyrs=y&hl=zh-cn&x=%v&y=%v&z=%v",
 }
-
+//已弃用，因为谷歌卫星大字体标注地图 的道路标注线路 与 卫星图像 严重偏离，官网也是偏离的
 func main() {
 	downByZoom(
 		postionXYZ{120.1042556762695312, 35.9743881225585938},

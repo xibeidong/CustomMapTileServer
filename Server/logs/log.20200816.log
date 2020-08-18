@@ -123,3 +123,49 @@
 2020-08-16 13:45:42	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:6789
 2020-08-16 13:46:29	WARN	QDPort/tcpServer.go:66	EOF
 2020-08-16 13:46:29	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:6789
+2020-08-16 22:43:42	INFO	Server/main.go:28	Run
+2020-08-16 22:43:43	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 22:43:44	ERROR	dbMysql/dbMysqlHelper.go:54	dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-16 22:52:23	INFO	Server/main.go:28	Run
+2020-08-16 22:52:23	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 22:52:24	ERROR	dbMysql/dbMysqlHelper.go:54	dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+2020-08-16 22:53:26	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2243
+2020-08-16 22:53:58	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-16 22:53:58	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:2243
+2020-08-16 22:54:02	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2449
+2020-08-16 22:55:08	INFO	Server/main.go:28	Run
+2020-08-16 22:55:08	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 22:56:07	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2622
+2020-08-16 22:57:53	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-16 22:57:53	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:2622
+2020-08-16 22:57:54	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2706
+2020-08-16 22:58:06	WARN	QDPort/tcpServer.go:66	EOF
+2020-08-16 22:58:06	WARN	QDPort/tcpServer.go:55	close tcp connect :127.0.0.1:2706
+2020-08-16 22:58:07	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2729
+2020-08-16 23:01:19	INFO	Server/main.go:28	Run
+2020-08-16 23:01:19	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:01:28	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:2865
+2020-08-16 23:29:17	INFO	Server/main.go:28	Run
+2020-08-16 23:29:17	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:30:14	ERROR	tileMapServer/httpServer.go:95	near "%": syntax error
+2020-08-16 23:30:14	ERROR	tileMapServer/httpServer.go:95	near "%": syntax error
+2020-08-16 23:30:19	ERROR	tileMapServer/httpServer.go:95	near "%": syntax error
+2020-08-16 23:30:19	ERROR	tileMapServer/httpServer.go:95	near "%": syntax error
+2020-08-16 23:31:16	INFO	Server/main.go:28	Run
+2020-08-16 23:31:17	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:33:14	INFO	Server/main.go:28	Run
+2020-08-16 23:33:14	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:33:33	ERROR	tileMapServer/httpServer.go:95	no such table: tiles
+2020-08-16 23:33:33	ERROR	tileMapServer/httpServer.go:95	no such table: tiles
+2020-08-16 23:33:33	ERROR	tileMapServer/httpServer.go:95	no such table: tiles
+2020-08-16 23:33:39	ERROR	tileMapServer/httpServer.go:95	no such table: tiles
+2020-08-16 23:33:39	ERROR	tileMapServer/httpServer.go:95	no such table: tiles
+2020-08-16 23:35:34	INFO	Server/main.go:28	Run
+2020-08-16 23:35:34	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:46:25	INFO	Server/main.go:28	Run
+2020-08-16 23:46:25	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:49:14	INFO	Server/main.go:28	Run
+2020-08-16 23:49:14	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-16 23:49:42	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 127.0.0.1:12705
+2020-08-16 23:56:54	INFO	Server/main.go:28	Run
+2020-08-16 23:56:54	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...

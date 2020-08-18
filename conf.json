@@ -1,0 +1,9 @@
+{
+  "mysqlConf":{
+    "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
+    "mapTableName":"roadbiglabeltiles"
+  },
+  "sqliteResourceName": "all_1_15.sqlitedb",
+  "resourcePath":"D:\\SGDownload\\png\\未命名\\未命名(墨卡托原始瓦片)",
+  "sqlType": "mysql"
+}

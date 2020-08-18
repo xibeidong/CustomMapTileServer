@@ -81,10 +81,15 @@ func getPositionsByDb(pb *playBackPositions)  {
 		return
 	}
 	defer rows.Close()
+	index:=0
 	for rows.Next(){
+		index++
 		info:=&gpsInfo{}
 		rows.Scan(&info.Id,&info.Lng,&info.Lat,&info.T)
 		pb.Positions = append(pb.Positions, *info)
+		if index>100 {
+			//return
+		}
 	}
 
 	//fmt.Println("读取到定位点数量 = " ,len(pb.Positions))
