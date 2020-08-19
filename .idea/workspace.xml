@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f277265-ba7a-422e-8124-2cbbc2838144" name="默认的" comment="瓦片地图http提供服务">
-      <change afterPath="$PROJECT_DIR$/Tool/mapServerBySqlite/serverSqlite3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tool/imgProcess/imgTest1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QDPort/messageHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/QDPort/messageHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/logs/log.20200816.log" beforeDir="false" afterPath="$PROJECT_DIR$/Server/logs/log.20200816.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/DownLoadMap/DownGoogleMap.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/DownLoadMap/DownGoogleMap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/StartCreateMapSQL.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ImpotMapImgToSql/StartCreateMapSQL.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/ImpotMapImgToMysql/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ImpotMapImgToSql/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ImpotMapImgToSql/StartCreateMapSQL.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ImpotMapImgToSql/StartCreateMapSQL.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ImpotMapImgToSql/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ImpotMapImgToSql/conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/go_build_My_CustomTileMapServer_Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/go_build_My_CustomTileMapServer_Server.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tileMapServer/httpServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/tileMapServer/httpServer.go" afterDir="false" />
     </list>
@@ -65,7 +61,7 @@
       <recent name="F:\go\src\My\CustomTileMapServer\common\dbMysql" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build My/CustomTileMapServer/Tool/ImpotMapImgToSql">
+  <component name="RunManager" selected="Go Build.go build My/CustomTileMapServer/Tool/imgProcess">
     <configuration name="go build My/CustomTileMapServer/Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="CustomTileMapServer" />
       <working_directory value="$PROJECT_DIR$/Server" />
@@ -96,6 +92,15 @@
       <output_directory value="$PROJECT_DIR$/bin/ImpotMapImgToSql" />
       <method v="2" />
     </configuration>
+    <configuration name="go build My/CustomTileMapServer/Tool/imgProcess" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="CustomTileMapServer" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/Tool/imgProcess/imgTest1.go" />
+      <package value="My/CustomTileMapServer/Tool/imgProcess" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build My/CustomTileMapServer/Tool/mapServerBySqlite" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="CustomTileMapServer" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -110,11 +115,13 @@
       <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/DownLoadMap" />
       <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/mapServerBySqlite" />
       <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/ImpotMapImgToSql" />
+      <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/imgProcess" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/ImpotMapImgToSql" />
+        <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/imgProcess" />
         <item itemvalue="Go Build.go build My/CustomTileMapServer/Server" />
+        <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/ImpotMapImgToSql" />
         <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/mapServerBySqlite" />
         <item itemvalue="Go Build.go build My/CustomTileMapServer/Tool/DownLoadMap" />
       </list>
@@ -136,46 +143,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595986949766" />
-    <state width="751" height="438" key="DebuggerActiveHint" timestamp="1597750187644">
+    <state width="751" height="438" key="DebuggerActiveHint" timestamp="1597841892414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="751" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1597750187644" />
+    <state width="751" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1597841892414" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1597755665396">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597755665396" />
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1597755242806">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1597852426098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597755242806" />
-    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1597755242806">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597852426098" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1597852426098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597755242806" />
-    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1597755242805">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597852426098" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1597852426098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597755242805" />
-    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1597755242806">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597852426098" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1597852426098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597755242806" />
-    <state width="1493" height="168" key="GridCell.Tab.1.bottom" timestamp="1597755190512">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597852426098" />
+    <state width="1493" height="168" key="GridCell.Tab.1.bottom" timestamp="1597852426092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597755190512" />
-    <state width="1493" height="168" key="GridCell.Tab.1.center" timestamp="1597755190512">
+    <state width="1493" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597852426092" />
+    <state width="1493" height="168" key="GridCell.Tab.1.center" timestamp="1597852426092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597755190512" />
-    <state width="1493" height="168" key="GridCell.Tab.1.left" timestamp="1597755190512">
+    <state width="1493" height="168" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597852426092" />
+    <state width="1493" height="168" key="GridCell.Tab.1.left" timestamp="1597852426092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597755190512" />
-    <state width="1493" height="168" key="GridCell.Tab.1.right" timestamp="1597755190512">
+    <state width="1493" height="168" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597852426092" />
+    <state width="1493" height="168" key="GridCell.Tab.1.right" timestamp="1597852426092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597755190512" />
+    <state width="1493" height="168" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597852426092" />
     <state x="303" y="58" key="SettingsEditor" timestamp="1597150829087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,10 +211,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595987149614" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597748949420">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597852073875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597748949420" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597852073875" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -223,14 +230,9 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Tool/ImpotMapImgToSql/StartCreateMapSQL.go</url>
-          <line>174</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Tool/ImpotMapImgToSql/StartCreateMapSQL.go</url>
-          <line>124</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/Tool/imgProcess/imgTest1.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

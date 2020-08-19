@@ -35,12 +35,18 @@ type roadMapInfo struct {
 
 var db *sql.DB
 var chDone chan int
+var chWriteControl chan int
+var chSqlWriteControl chan int
 var failMap map[string]*roadMapInfo
 var maplock sync.Mutex
 var mConf *confInfo
 
 
 func (roadMap *roadMapInfo) toSql(tableName string) bool {
+	chSqlWriteControl<-1
+	defer func() {
+		<-chSqlWriteControl
+	}()
 	// sqlite3 不支持 on duplicate key update 这样的语法
 	//smt, err := db.Prepare("insert into " + tableName + " (img,level_id,dir_id,png_id,id) values (?,?,?,?,?) on duplicate key update img = ?")
 	smt, err := db.Prepare("insert into " + tableName + " (img,level_id,dir_id,png_id,id) values (?,?,?,?,?)")
@@ -99,6 +105,8 @@ func main() {
 func run() {
 	failMap = make(map[string]*roadMapInfo)
 	chDone = make(chan int, 1000)
+	chWriteControl = make(chan int,15)
+	chSqlWriteControl = make(chan int , 1)
 	go monitor(chDone)
 	go retry()
 	var e error
@@ -136,6 +144,7 @@ func retry() {
 		time.Sleep(time.Millisecond * 10)
 		maplock.Lock()
 		for k, v := range failMap {
+			chWriteControl<-1
 			b :=  v.toSql(mConf.MysqlConf.MapTableName)
 			if b {
 				delete(failMap, k)
@@ -144,6 +153,7 @@ func retry() {
 			} else {
 				chDone <- 0
 			}
+			<-chWriteControl
 		}
 		maplock.Unlock()
 	}
@@ -163,7 +173,7 @@ func monitor(ch <-chan int) {
 			fmt.Println("now fail num = ", len(failMap))
 		} else if c == 1 {
 			successNum++
-			if successNum%10 == 0 {
+			if successNum%100 == 0 {
 				fmt.Println(successNum, "has Done,协程数量 = ", runtime.NumGoroutine())
 			}
 		} else if c == 2 {
@@ -194,14 +204,18 @@ func praseImgDir(rootPath string) {
 					fmt.Println(e1)
 					continue
 				}
-				fmt.Println(len(files))
+				//fmt.Println(len(files))
 
 				for _, file := range files {
-					name1 := file.Name()
-					fmt.Println(name1)
+
+					//限制最多15个协程，超过会阻塞
+					chWriteControl <-1
+
+					//name1 := file.Name()
+					//fmt.Println(name1)
 					str := strings.TrimRight(file.Name(), ".jpg")
 					path2 := rootPath + "\\" + levelDir.Name() + "\\" + lastdir.Name() + "\\" + file.Name()
-					imgFile2Sql(
+					go imgFile2Sql(
 						path2,
 						levelDir.Name()+":"+lastdir.Name()+":"+str)
 				}
@@ -212,6 +226,10 @@ func praseImgDir(rootPath string) {
 }
 
 func imgFile2Sql(path string, pathKey string) {
+	defer func() {
+		<- chWriteControl
+	}()
+
 	mapinfo := &roadMapInfo{}
 
 	data, e := ioutil.ReadFile(path)
