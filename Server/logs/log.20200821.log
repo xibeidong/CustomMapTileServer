@@ -1,0 +1,284 @@
+2020-08-21 22:08:47	INFO	Server/main.go:28	Run
+2020-08-21 22:08:47	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:08:57	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:3730
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:58	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:08:59	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:08:59	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:00	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:01	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:01	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:01	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:02	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:02	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:02	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:03	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:04	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:05	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:09:06	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:07	WARN	tileMapServer/httpServer.go:114	open ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:08	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:08	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:08	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:09:09	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:10	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:10	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:09:11	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:10:28	INFO	Server/main.go:28	Run
+2020-08-21 22:10:28	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:10:33	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:3883
+2020-08-21 22:12:09	INFO	Server/main.go:28	Run
+2020-08-21 22:12:09	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:12:11	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:4137
+2020-08-21 22:13:21	INFO	Server/main.go:28	Run
+2020-08-21 22:13:21	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:13:22	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:4385
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:23	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	open ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:24	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:25	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:25	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:25	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:25	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:25	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:26	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:26	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:26	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:27	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:27	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:27	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:28	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:28	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:13:28	WARN	tileMapServer/httpServer.go:114	remove ./temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:00	INFO	Server/main.go:28	Run
+2020-08-21 22:21:00	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:21:05	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:5597
+2020-08-21 22:21:06	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:06	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:06	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:06	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:07	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:07	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:08	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:08	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:08	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:10	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:10	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:10	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:11	WARN	tileMapServer/httpServer.go:114	open ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:11	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:13	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:13	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:13	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:15	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:15	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:15	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	open ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:16	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	open ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:21:17	WARN	tileMapServer/httpServer.go:114	remove ./�_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:32	INFO	Server/main.go:28	Run
+2020-08-21 22:26:32	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:26:35	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:6477
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:41	WARN	tileMapServer/httpServer.go:114	remove ./1598020001_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:42	WARN	tileMapServer/httpServer.go:114	remove ./1598020002_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:43	WARN	tileMapServer/httpServer.go:114	remove ./1598020003_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:44	WARN	tileMapServer/httpServer.go:114	remove ./1598020004_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:44	WARN	tileMapServer/httpServer.go:114	remove ./1598020004_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:44	WARN	tileMapServer/httpServer.go:114	remove ./1598020004_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:44	WARN	tileMapServer/httpServer.go:114	remove ./1598020004_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:44	WARN	tileMapServer/httpServer.go:114	remove ./1598020004_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:45	WARN	tileMapServer/httpServer.go:114	remove ./1598020005_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:45	WARN	tileMapServer/httpServer.go:114	remove ./1598020005_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:45	WARN	tileMapServer/httpServer.go:114	remove ./1598020005_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:45	WARN	tileMapServer/httpServer.go:114	remove ./1598020005_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:45	WARN	tileMapServer/httpServer.go:114	remove ./1598020005_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:46	WARN	tileMapServer/httpServer.go:114	remove ./1598020006_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:46	WARN	tileMapServer/httpServer.go:114	remove ./1598020006_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:46	WARN	tileMapServer/httpServer.go:114	remove ./1598020006_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:48	WARN	tileMapServer/httpServer.go:114	remove ./1598020008_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:49	WARN	tileMapServer/httpServer.go:114	remove ./1598020009_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:49	WARN	tileMapServer/httpServer.go:114	remove ./1598020009_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:49	WARN	tileMapServer/httpServer.go:114	remove ./1598020009_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:49	WARN	tileMapServer/httpServer.go:114	remove ./1598020009_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:50	WARN	tileMapServer/httpServer.go:114	remove ./1598020010_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:54	WARN	tileMapServer/httpServer.go:114	remove ./1598020014_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:54	WARN	tileMapServer/httpServer.go:114	remove ./1598020014_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:55	WARN	tileMapServer/httpServer.go:114	remove ./1598020015_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:56	WARN	tileMapServer/httpServer.go:114	remove ./1598020016_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:56	WARN	tileMapServer/httpServer.go:114	remove ./1598020016_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:56	WARN	tileMapServer/httpServer.go:114	remove ./1598020016_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:57	WARN	tileMapServer/httpServer.go:114	remove ./1598020017_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:57	WARN	tileMapServer/httpServer.go:114	remove ./1598020017_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:57	WARN	tileMapServer/httpServer.go:114	remove ./1598020017_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:57	WARN	tileMapServer/httpServer.go:114	remove ./1598020017_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:57	WARN	tileMapServer/httpServer.go:114	remove ./1598020017_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:58	WARN	tileMapServer/httpServer.go:114	remove ./1598020018_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:58	WARN	tileMapServer/httpServer.go:114	remove ./1598020018_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:58	WARN	tileMapServer/httpServer.go:114	remove ./1598020018_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:26:58	WARN	tileMapServer/httpServer.go:114	remove ./1598020018_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:26:59	WARN	tileMapServer/httpServer.go:114	remove ./1598020019_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:00	WARN	tileMapServer/httpServer.go:114	remove ./1598020020_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:00	WARN	tileMapServer/httpServer.go:114	remove ./1598020020_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:00	WARN	tileMapServer/httpServer.go:114	remove ./1598020020_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:00	WARN	tileMapServer/httpServer.go:114	remove ./1598020020_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:00	WARN	tileMapServer/httpServer.go:114	remove ./1598020020_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:01	WARN	tileMapServer/httpServer.go:114	remove ./1598020021_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:01	WARN	tileMapServer/httpServer.go:114	remove ./1598020021_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:01	WARN	tileMapServer/httpServer.go:114	remove ./1598020021_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:01	WARN	tileMapServer/httpServer.go:114	remove ./1598020021_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:02	WARN	tileMapServer/httpServer.go:114	remove ./1598020022_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:02	WARN	tileMapServer/httpServer.go:114	remove ./1598020022_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:03	WARN	tileMapServer/httpServer.go:114	remove ./1598020023_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:27:03	WARN	tileMapServer/httpServer.go:114	remove ./1598020023_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:31:20	INFO	Server/main.go:28	Run
+2020-08-21 22:31:20	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:32:17	INFO	Server/main.go:28	Run
+2020-08-21 22:32:17	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:32:20	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:7356
+2020-08-21 22:32:20	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020340_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:20	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020340_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:20	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020340_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:20	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020340_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:20	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020340_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:21	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:22	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020341_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:22	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020342_temp.jpeg: The system cannot find the file specified.
+2020-08-21 22:32:22	WARN	tileMapServer/httpServer.go:114	open ./1598020342_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:22	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020342_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:22	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020342_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:22	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020342_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:23	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020343_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:24	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020344_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:25	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020345_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:25	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020345_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:25	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020345_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:25	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020345_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:32:25	WARN	tileMapServer/clarityPNG.go:65	remove ./1598020345_temp.jpeg: The process cannot access the file because it is being used by another process.
+2020-08-21 22:43:41	INFO	Server/main.go:28	Run
+2020-08-21 22:43:41	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:43:41	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:8914
+2020-08-21 22:46:01	INFO	Server/main.go:28	Run
+2020-08-21 22:46:01	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:47:22	INFO	Server/main.go:28	Run
+2020-08-21 22:47:22	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:47:25	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:9596
+2020-08-21 22:48:31	INFO	Server/main.go:28	Run
+2020-08-21 22:48:31	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:50:24	INFO	Server/main.go:28	Run
+2020-08-21 22:50:24	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:50:33	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10158
+2020-08-21 22:52:56	INFO	Server/main.go:28	Run
+2020-08-21 22:52:56	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:53:10	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10509
+2020-08-21 22:56:10	INFO	Server/main.go:28	Run
+2020-08-21 22:56:11	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-08-21 22:56:17	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10954

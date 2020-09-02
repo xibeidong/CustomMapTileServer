@@ -11,8 +11,17 @@ import (
 
 func main() {
 
+	imgMatrix := imgo.MustRead("D:\\SGDownload\\png\\1.png")
+	err := imgo.SaveAsJPEG("D:\\SGDownload\\png\\1_1.jpg",imgMatrix, 50)
+	if err!=nil{
+		fmt.Println(err)
+	}
+	select {
 
+	}
 
+}
+func testClarlityPNG(){
 	path:="D:\\SGDownload\\png\\3225.jpg"
 	data, err := ioutil.ReadFile(path)
 
@@ -43,7 +52,6 @@ func main() {
 		panic(err)
 	}
 }
-
 func bytesToImage(data []byte) ( image.Image,string ,error) {
 	reader := bytes.NewReader(data)
 	img, s, err := image.Decode(reader)

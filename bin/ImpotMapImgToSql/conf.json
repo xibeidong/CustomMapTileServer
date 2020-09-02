@@ -3,7 +3,7 @@
     "mysqlDataSourceName":"root:123456@tcp(127.0.0.1:3306)/qingdaoport",
     "mapTableName":"roadbiglabeltiles"
   },
-  "sqliteResourceName": "huangdao_1_18.sqlitedb",
-  "resourcePath":"D:\\SGDownload\\png\\黄岛区\\黄岛区(墨卡托原始瓦片)",
+  "sqliteResourceName": "ALL_1_17.sqlitedb",
+  "resourcePath":"D:\\SGDownload\\png\\ALL\\ALL(墨卡托原始瓦片)",
   "sqlType": "sqlite"
 }

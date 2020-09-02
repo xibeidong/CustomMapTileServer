@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/Comdex/imgo"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/mattn/go-sqlite3"
 	"io/ioutil"
@@ -182,6 +183,7 @@ func monitor(ch <-chan int) {
 	}
 }
 func praseImgDir(rootPath string) {
+
 	levelDirs, e := ioutil.ReadDir(rootPath)
 	if e != nil {
 		fmt.Println(e)
@@ -195,8 +197,8 @@ func praseImgDir(rootPath string) {
 			continue
 		}
 
-		//doImgFile2Mysql(rootPath,lastDirs,levelDir.Name())
 		for _, lastdir := range lastDirs {
+
 			if lastdir.IsDir() {
 				path1 := rootPath + "\\" + levelDir.Name() + "\\" + lastdir.Name()
 				files, e1 := ioutil.ReadDir(path1)
@@ -207,14 +209,26 @@ func praseImgDir(rootPath string) {
 				//fmt.Println(len(files))
 
 				for _, file := range files {
+					//fmt.Println(file.Name())
 
 					//限制最多15个协程，超过会阻塞
 					chWriteControl <-1
 
-					//name1 := file.Name()
-					//fmt.Println(name1)
-					str := strings.TrimRight(file.Name(), ".jpg")
+
 					path2 := rootPath + "\\" + levelDir.Name() + "\\" + lastdir.Name() + "\\" + file.Name()
+					i := strings.Index(file.Name(), ".png")
+					if i==-1{
+
+						fmt.Println("删除=》 "+path2)
+						err3:=os.Remove(path2)//删除非png格式的文件
+						if err3!=nil{
+							fmt.Println(err3)
+						}
+						continue
+					}
+
+					str := strings.TrimRight(file.Name(), ".png")
+
 					go imgFile2Sql(
 						path2,
 						levelDir.Name()+":"+lastdir.Name()+":"+str)
@@ -223,6 +237,7 @@ func praseImgDir(rootPath string) {
 		}
 
 	}
+
 }
 
 func imgFile2Sql(path string, pathKey string) {
@@ -232,11 +247,18 @@ func imgFile2Sql(path string, pathKey string) {
 
 	mapinfo := &roadMapInfo{}
 
-	data, e := ioutil.ReadFile(path)
-	if e != nil {
-		fmt.Println(e)
-		return
+	data, err := png2jpg(path) //png压缩成jpg
+
+	if err!=nil{
+		data, err = ioutil.ReadFile(path)
+
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+
 	}
+
 
 	mapinfo.ImgData = &data
 	strs := strings.Split(pathKey, ":")
@@ -272,4 +294,28 @@ func imgFile2Sql(path string, pathKey string) {
 
 		}
 	}
+}
+
+func png2jpg(path string) ([]byte,error)  {
+	name := strings.TrimRight(path, ".png") + ".jpg"
+
+	imgMatrix := imgo.MustRead(path)
+	err := imgo.SaveAsJPEG(name, imgMatrix, 50)
+	if err!=nil{
+		fmt.Println(err)
+		return nil, err
+	}
+	defer func() {
+		err2 := os.Remove(name)
+		if err2!=nil{
+			fmt.Println(err2)
+		}
+	}()
+	bytes, err := ioutil.ReadFile(name)
+	if err!=nil{
+		fmt.Println(err)
+		return nil,err
+	}
+	return bytes,nil
+
 }

@@ -1,0 +1,73 @@
+2020-09-02 14:43:01	INFO	Server/main.go:28	Run
+2020-09-02 14:43:02	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-09-02 14:43:25	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:8981
+2020-09-02 14:50:01	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10817
+2020-09-02 14:50:01	WARN	QDPort/tcpServer.go:66	read tcp 192.168.10.225:5612->192.168.10.225:8981: wsarecv: An established connection was aborted by the software in your host machine.
+2020-09-02 14:50:01	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:8981
+2020-09-02 14:50:48	WARN	QDPort/tcpServer.go:66	read tcp 192.168.10.225:5612->192.168.10.225:10817: wsarecv: An existing connection was forcibly closed by the remote host.
+2020-09-02 14:50:48	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:10817
+2020-09-02 14:50:50	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10837
+2020-09-02 14:55:13	WARN	QDPort/tcpServer.go:66	read tcp 192.168.10.225:5612->192.168.10.225:10837: wsarecv: An existing connection was forcibly closed by the remote host.
+2020-09-02 14:55:13	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:10837
+2020-09-02 14:55:19	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:10976
+2020-09-02 14:57:05	WARN	QDPort/tcpServer.go:66	read tcp 192.168.10.225:5612->192.168.10.225:10976: wsarecv: An existing connection was forcibly closed by the remote host.
+2020-09-02 14:57:05	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:10976
+2020-09-02 14:58:17	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:11028
+2020-09-02 15:07:22	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:07:22	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:11028
+2020-09-02 15:14:32	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:13486
+2020-09-02 15:16:25	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:16:25	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:13486
+2020-09-02 15:16:27	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:13719
+2020-09-02 15:17:37	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:17:37	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:13719
+2020-09-02 15:17:39	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:13775
+2020-09-02 15:20:10	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14013
+2020-09-02 15:21:37	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:21:37	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14013
+2020-09-02 15:22:38	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:22:38	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:13775
+2020-09-02 15:22:42	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14254
+2020-09-02 15:24:08	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:24:08	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14254
+2020-09-02 15:24:12	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14366
+2020-09-02 15:26:28	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14393
+2020-09-02 15:27:58	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:27:58	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14393
+2020-09-02 15:29:18	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:29:18	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14366
+2020-09-02 15:29:21	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14522
+2020-09-02 15:29:54	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:29:54	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14522
+2020-09-02 15:29:55	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14526
+2020-09-02 15:30:49	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:30:49	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14526
+2020-09-02 15:32:45	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14584
+2020-09-02 15:34:48	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:34:48	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14584
+2020-09-02 15:34:55	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14820
+2020-09-02 15:36:18	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:36:18	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14820
+2020-09-02 15:36:21	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:14973
+2020-09-02 15:40:20	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:40:20	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:14973
+2020-09-02 15:42:33	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:3827
+2020-09-02 15:48:56	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 15:48:56	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:3827
+2020-09-02 16:00:07	INFO	Server/main.go:28	Run
+2020-09-02 16:00:07	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-09-02 16:00:27	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:5255
+2020-09-02 16:01:35	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 16:01:35	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:5255
+2020-09-02 16:02:13	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:5495
+2020-09-02 16:03:54	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 16:03:54	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:5495
+2020-09-02 16:04:34	INFO	Server/main.go:28	Run
+2020-09-02 16:04:35	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-09-02 16:04:35	ERROR	QDPort/tcpServer.go:23	listen tcp 192.168.10.225:5612: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020-09-02 16:04:35	ERROR	QDPort/receiveGpsInfoUdpServer.go:34	listen udp 192.168.10.225:5611: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020-09-02 16:04:41	INFO	Server/main.go:28	Run
+2020-09-02 16:04:41	INFO	dbMysql/dbMysqlHelper.go:19	mysql ready connect...
+2020-09-02 16:05:00	INFO	QDPort/tcpServer.go:34	新Tcp连接 ==》 192.168.10.225:6495
+2020-09-02 17:16:21	WARN	QDPort/tcpServer.go:66	EOF
+2020-09-02 17:16:21	WARN	QDPort/tcpServer.go:55	close tcp connect :192.168.10.225:6495

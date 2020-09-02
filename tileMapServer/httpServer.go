@@ -14,7 +14,10 @@ import (
 
 var sqliteDBMap map[string] *sql.DB
 var rootPath string
+var ch chan int64
 func Run() {
+	ch = make(chan int64,1)
+	ch<-0
 	sqliteDBMap = make(map[string] *sql.DB)
 
 
@@ -106,8 +109,16 @@ func getTileFromSqlite3(id string) []byte  {
 				err = rows.Scan(&data)
 				if err!=nil{
 					zapLog.Logger.Error(err)
+					rows.Close()
 					return nil
 				}
+
+				//data2, err := clarityImg(data, 50)
+				//if err!=nil{
+				//	zapLog.Logger.Warn(err)
+				//	return data
+				//}
+				rows.Close()
 				return data
 			}
 		}

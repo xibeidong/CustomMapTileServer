@@ -5,7 +5,7 @@
   },
   "mapHttpServerListen": "192.168.10.225:8000",
   "mapResourceDBsRootPath": "D:\\SGDownload\\outlineDB",
-  "mapResourceDBs": [ "huangdao_1_18.sqlitedb","all_1_15.sqlitedb"],
+  "mapResourceDBs": ["ALL_1_17.sqlitedb"],
   "qdPortUdpServerListen": "192.168.10.225:5611",
   "qdPortTcpServerListen": "192.168.10.225:5612",
 
